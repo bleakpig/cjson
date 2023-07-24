@@ -1,5 +1,1 @@
-这是学习cjson项目
-
-[cjson]: https://github.com/miloyip/json-tutorial
-
-学习记录仓库
+这是学习cjson项目[cjson]: https://github.com/miloyip/json-tutorial学习记录仓库
