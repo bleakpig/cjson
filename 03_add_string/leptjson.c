@@ -156,7 +156,7 @@ static int lept_parse_string(lept_context* c, lept_value* v){
                 break;
         case '\0':
             c->top = head;
-            return LEPT_PARSE_INVALID_STRING_MARK;
+            return LEPT_PARSE_MISS_STRING_MARK;
         default:
             if((unsigned char)ch < 0x20){
                 c->top = head;

@@ -23,7 +23,7 @@ enum {
     LEPT_PARSE_ROOT_NOT_SINGULAR,
     LEPT_PARSE_NUMBER_TOO_BIG,
     LEPT_PARSE_INVALID_STRING_ESCAPE,
-    LEPT_PARSE_INVALID_STRING_MARK,
+    LEPT_PARSE_MISS_STRING_MARK,
     LEPT_PARSE_INVALID_STRING_CHAR
 };
 
@@ -38,7 +38,7 @@ void lept_free(lept_value* v);
 #define lept_set_null(v) lept_free(v)
 
 int lept_get_boolean(const lept_value* v);
-void lept_set_boolen(lept_value* v, int b);
+void lept_set_boolean(lept_value* v, int b);
 
 double lept_get_number(const lept_value* v);
 void lept_set_number(lept_value* v, double n);
